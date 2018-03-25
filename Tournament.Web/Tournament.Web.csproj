@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\font\roboto\Roboto-Bold.eot" />
+    <None Include="wwwroot\css\font\roboto\Roboto-Bold.ttf" />
+    <None Include="wwwroot\css\font\roboto\Roboto-Bold.woff" />
+    <None Include="wwwroot\css\font\roboto\Roboto-Bold.woff2" />
+    <None Include="wwwroot\css\font\roboto\Roboto-Light.eot" />
+    <None Include="wwwroot\css\font\roboto\Roboto-Light.ttf" />
+    <None Include="wwwroot\css\font\roboto\Roboto-Light.woff" />
+    <None Include="wwwroot\css\font\roboto\Roboto-Light.woff2" />
+    <None Include="wwwroot\css\font\roboto\Roboto-Medium.eot" />
+    <None Include="wwwroot\css\font\roboto\Roboto-Medium.ttf" />
+    <None Include="wwwroot\css\font\roboto\Roboto-Medium.woff" />
+    <None Include="wwwroot\css\font\roboto\Roboto-Medium.woff2" />
+    <None Include="wwwroot\css\font\roboto\Roboto-Regular.eot" />
+    <None Include="wwwroot\css\font\roboto\Roboto-Regular.ttf" />
+    <None Include="wwwroot\css\font\roboto\Roboto-Regular.woff" />
+    <None Include="wwwroot\css\font\roboto\Roboto-Regular.woff2" />
+    <None Include="wwwroot\css\font\roboto\Roboto-Thin.eot" />
+    <None Include="wwwroot\css\font\roboto\Roboto-Thin.ttf" />
+    <None Include="wwwroot\css\font\roboto\Roboto-Thin.woff" />
+    <None Include="wwwroot\css\font\roboto\Roboto-Thin.woff2" />
+    <None Include="wwwroot\js\thirdparty\bootstrap.js" />
+    <None Include="wwwroot\js\thirdparty\bootstrap.min.js" />
+    <None Include="wwwroot\js\thirdparty\jquery-3.2.1.min.js" />
+    <None Include="wwwroot\js\thirdparty\mdb.js" />
+    <None Include="wwwroot\js\thirdparty\mdb.min.js" />
+    <None Include="wwwroot\js\thirdparty\popper.min.js" />
+    <None Include="wwwroot\css\thirdparty\bootstrap.css" />
+    <None Include="wwwroot\css\thirdparty\bootstrap.min.css" />
+    <None Include="wwwroot\css\thirdparty\mdb.css" />
+    <None Include="wwwroot\css\thirdparty\mdb.min.css" />
+    <None Include="wwwroot\css\thirdparty\style.css" />
+  </ItemGroup>
+
+</Project>
