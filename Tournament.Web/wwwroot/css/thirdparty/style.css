@@ -7,8 +7,13 @@
 .start-background-container {
     position: relative;
     text-align: center;
-    color: white;
+    color: white;    
 }
+
+.start-background {
+    filter: brightness(70%);
+}
+
 
 .centered {
     position: absolute;

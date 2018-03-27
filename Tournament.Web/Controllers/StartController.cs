@@ -8,21 +8,40 @@ using Tournament.Web.Models;
 
 namespace Tournament.Web.Controllers
 {
-    public class HomeController : Controller
+    public class StartController : Controller
     {
+        [Route("")]
         public IActionResult Index()
         {
             return View();
         }
 
-        public IActionResult About()
+        [Route("AboutUs")]
+        public IActionResult AboutUs()
         {
             ViewData["Message"] = "Your application description page.";
 
             return View();
         }
 
+        [Route("Contact")]
         public IActionResult Contact()
+        {
+            ViewData["Message"] = "Your contact page.";
+
+            return View();
+        }
+
+        [Route("Legal")]
+        public IActionResult Legal()
+        {
+            ViewData["Message"] = "Your contact page.";
+
+            return View();
+        }
+
+        [Route("SignUp")]
+        public IActionResult SignUp()
         {
             ViewData["Message"] = "Your contact page.";
 
