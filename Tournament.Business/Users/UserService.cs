@@ -2,7 +2,7 @@
 
 namespace Tournament.Business
 {
-    public class Class1
+    public class UserService
     {
     }
 }
