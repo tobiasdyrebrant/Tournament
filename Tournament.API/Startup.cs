@@ -37,6 +37,9 @@ namespace Tournament.API
             {
                 app.UseDeveloperExceptionPage();
             }
+            
+            //TODO
+            //Set up with cors
 
             app.UseMvc();
         }
