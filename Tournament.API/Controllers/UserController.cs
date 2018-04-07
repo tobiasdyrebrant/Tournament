@@ -7,6 +7,7 @@ using Newtonsoft.Json.Serialization;
 using Tournament.Data;
 using Tournament.Business;
 using Tournament.API.Models;
+using Microsoft.AspNetCore.Cors;
 
 namespace Tournament.API.Controllers
 {
@@ -17,7 +18,7 @@ namespace Tournament.API.Controllers
         public UserController(TournamentDbContext dbContext,
             UserService userService) : base(dbContext)
         {
-            userService = _userService;
+            _userService = userService;
         }
 
 
@@ -37,6 +38,20 @@ namespace Tournament.API.Controllers
             //return encrypted id
             return Ok(user.UserId);
         }
+
+        [HttpGet]
+        public async Task<IActionResult> GetAsync([FromBody]UserCreateModel model)
+        {            
+            return Ok("Id");
+        }
+
+        [Route("test")]
+        [HttpGet]
+        public async Task<IActionResult> GetTestAsync([FromBody]UserCreateModel model)
+        {
+            return Ok("Id");
+        }
+
 
     }
 }

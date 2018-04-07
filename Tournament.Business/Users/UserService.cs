@@ -14,6 +14,7 @@ namespace Tournament.Business
         public UserService(TournamentDbContext dbContext)
         {
             _dbContext = dbContext;
+            _userSet = _dbContext.Set<User>();
         }
 
         public User AddUser(User user)
