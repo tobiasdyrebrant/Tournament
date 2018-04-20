@@ -44,6 +44,8 @@ namespace Tournament.API
 
             services.AddScoped<UserService>();
 
+            services.AddAuthentication().AddSteam();
+
             services.AddMvc();
         }
 
